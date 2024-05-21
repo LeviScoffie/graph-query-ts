@@ -1,0 +1,22 @@
+{
+  "name": "graph-query-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.8.1",
+    "graphql-request": "^5.0.0", 
+    "graphql-tag": "^2.12.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
+

@@ -1,0 +1,9 @@
+query UserTransactions {
+  userTransactions(first: 15, orderBy: timestamp, orderDirection: desc) {
+    id
+    block
+    timestamp
+    transactionHash
+    user
+  }
+}
